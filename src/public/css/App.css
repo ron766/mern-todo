@@ -1,0 +1,106 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40px;
+  pointer-events: none;
+  vertical-align: middle;
+}
+.headerText {
+  vertical-align: middle;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/**
+  @author Rohan Patil
+  @description css file
+*/
+
+/**
+  @description body detailing
+*/
+@import url(http://fonts.googleapis.com/css?family=Quattrocento:700);
+body {
+  background-color:#f8f8f8;
+  font-family: 'Quattrocento', serif;
+}
+
+/**
+  @description body detailing
+*/
+.selected {
+  border:1px solid #ddd;
+}
+
+/**
+  @description display property
+*/
+.disp {
+  display: none;
+}
+
+/**
+  @description input detailing
+*/
+.complete {
+	text-decoration: line-through;
+  background-color: #F08080 !important; 
+}
+
+/**
+  @description <a> detailing
+*/
+.aactive {
+	text-decoration: underline;
+}
+
+#todo-count {
+  vertical-align: -webkit-baseline-middle;
+}
+
+.header-main {
+  padding: 5px 0px 10px 5px;
+}
+
+.row2 {
+  padding: 5px 0px 10px 3px;
+}
+
+.row3 {
+  padding: 0px 0px 15px 0px;
+}
+.glyph-r {
+  color: black
+}
+.glyphicon {
+  top: 3px
+}
+.btn-default:focus {
+  outline: 0;
+  border-color: transparent;
+}
